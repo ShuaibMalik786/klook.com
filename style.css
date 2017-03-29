@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+
+
+#slideshow { 
+    margin: auto; 
+    position: relative; 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    background-image: url("images/image1.jpg") ;
+}
+ 
+ .tile:hover{
+  box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transform: translate(0px, -5px);
+ }
+
+ .panelstyle{
+     border-radius: 0px; 
+     padding: 20px;
+     border-right:1px solid darkgrey;
+     border-bottom: 1px solid darkgrey
+ }
+
+ .cityname{
+     color:white;
+     position: absolute;
+     top: 40%;left: 40%
+ }
+
+ .cityimage{
+     border-radius: 5px;
+     width: 100%
+ }
+
+ .detailtileimage{
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     width: 100%
+ }
+
+ .tilepricetag{
+     background-color:black;
+     opacity: 0.7;
+     position:absolute;
+     top: 140px;
+     padding:10px;
+     border-top-right-radius:10px; 
+     border-bottom-right-radius: 10px
+ }
